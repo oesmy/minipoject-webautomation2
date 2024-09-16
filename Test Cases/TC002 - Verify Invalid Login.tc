@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002 - Verify Invalid Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e87f03dd-49e3-458e-8a3e-c2674c8d57df</testCaseGuid>
+</TestCaseEntity>

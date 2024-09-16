@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC003 - Verify Username Invalid Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afa5628a-3633-48e6-9fd2-20cefaa8ac3b</testCaseGuid>
+</TestCaseEntity>
