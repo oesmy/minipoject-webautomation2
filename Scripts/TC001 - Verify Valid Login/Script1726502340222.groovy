@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Login/label login pages'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Login/label username'))
+
+WebUI.setText(findTestObject('Object Repository/Login/field username'), GlobalVariable.Username)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Login/label password'))
+
+WebUI.setText(findTestObject('Object Repository/Login/field password'), GlobalVariable.Password)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Login/button login'))
+
+WebUI.click(findTestObject('Object Repository/Login/button login'))
+
+WebUI.verifyElementVisible(findTestObject('Login/alert success login'))
+
+WebUI.closeBrowser()
+
